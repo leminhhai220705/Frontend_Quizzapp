@@ -1,0 +1,80 @@
+/* ResultScreen.css */
+
+.result-screen {
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.result-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.result-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-question {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.results-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-option {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.retry-button, .return-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.retry-button {
+  background-color: #61dafb;
+  color: white;
+}
+
+.retry-button:hover {
+  background-color: #21a1f1;
+}
+
+.return-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.return-button:hover {
+  background-color: #388e3c;
+}
